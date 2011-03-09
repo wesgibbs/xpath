@@ -5,18 +5,18 @@ $:.unshift lib unless $:.include?(lib)
 require 'xpath/version'
 
 Gem::Specification.new do |s|
-  s.name = "xpath"
-  s.rubyforge_project = "xpath"
+  s.name = "wgibbs-xpath"
+  s.rubyforge_project = "wgibbs-xpath"
   s.version = XPath::VERSION
 
-  s.authors = ["Jonas Nicklas"]
-  s.email = ["jonas.nicklas@gmail.com"]
+  s.authors = ["Wes Gibbs", "Jonas Nicklas"]
+  s.email = ["wesgibbs@gmail.com", "jonas.nicklas@gmail.com"]
   s.description = "XPath is a Ruby DSL for generating XPath expressions"
 
   s.files = Dir.glob("{lib,spec}/**/*") + %w(README.rdoc)
   s.extra_rdoc_files = ["README.rdoc"]
 
-  s.homepage = "http://github.com/jnicklas/xpath"
+  s.homepage = "http://github.com/wgibbs/xpath"
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.3.6"
